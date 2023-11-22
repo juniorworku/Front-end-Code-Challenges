@@ -1,0 +1,28 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    box-sizing:border-box;
+}
+/*desktop version*/
+.main{
+    display:grid;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    margin: 150px 500px;
+    width:30%;
+    height: 400px;
+    padding:0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+.container1{
+    display: grid;
+    justify-content: center;
+    color: hsl(221, 100%, 96%);
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+}
